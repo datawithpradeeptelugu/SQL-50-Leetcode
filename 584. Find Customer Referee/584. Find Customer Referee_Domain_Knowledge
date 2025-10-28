@@ -1,0 +1,29 @@
+Domain Knowledge:
+
+Leetcode online Plaform
+
+
+Direct Customer
+Will
+Jane
+
+Refered Customer
+
+jane -->Alex
+
+
+
+Logic:
+
+referee_id !=2 
+
+or
+
+referee_id is null
+
+
+
+
+
+
+
