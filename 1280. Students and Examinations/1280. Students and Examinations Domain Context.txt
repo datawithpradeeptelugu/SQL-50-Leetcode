@@ -1,0 +1,44 @@
+COLLEGE
+
+STUDENT-4
+SUBJECT-3
+EXAMS-
+
+EXAM CATEGORIES:
+
+RETAKE THE EXAM- FOR IMPROVING THEIR SCORE
+MAKUP EXAM -ALTERNATIVE EXAM IS GIVEN TO STUDENT, WHO MISSED THE ORGINAL EXAM FOR VALID REASON
+PRATICE TEST- PARTICAPATE IN PRATICE TEST
+
+
+
+
+
+
+
+
+HOW THIS DATA HELP SOLVE VARIOUS PROBLEM:
+
+Teachers know which students missed exams (Alex → Programming = 0).
+
+Admins know which subjects need more exam slots (Math → many retakes).
+
+They can analyze participation trends — Programming has highest interest.
+
+They can even identify students needing help (Alice retaking too often).
+
+
+Better Planning: 
+Exams scheduled based on real participation data.
+
+Smarter Insights: 
+Popular and problem subjects identified.
+
+Improved Student Support: 
+Struggling students tracked and helped.
+
+
+
+
+
+
