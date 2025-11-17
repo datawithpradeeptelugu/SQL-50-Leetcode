@@ -1,0 +1,141 @@
+DOMAIN CONTEXT:
+
+
+ZOMOTO PORTOL
+LANDING PAGE--->AUTHENTICATION-->PRODUCT PAGE ONBOARDING ->FOOD PRODCUTS PURCHASE--->MARGIN 
+4 PEOPLE    --->SUCESS        --->2 PEOPLE
+
+
+DIFFERENT 
+
+            
+USER CREATES AN ACCOUNT ONLY ONE TIME
+WHEN THE USER CREATED THE ACCOUNT-SIGNUP TABLE TIMESTAMP
+
+
+
+CONFIRMATION(OTP REQUESTS)-HAPPEND MANY TIMES
+
+WHEN USER REQUESTED OTP,WHICH CAN HAPPEN MULTIPLE TIMES AND AT DIFFERENT TIMES.
+
+-LOGGING IN FROM NEW DEVICE
+-RESESTTING PASSWORD
+-CHANGING EMAIL/PHONE
+-REVERFYIG ACCOUNT
+-APP FORCES VERFICATION PERIODICALLY
+
+EVERY OTP REQUEST CREATES A NEW ENTRY IN CONFIRMATION TABLE
+
+EX:
+USER CREATED ACCOUNT IN MAR-2020
+REQUESTED OTP JAN-2021,JUL-2021
+
+
+
+Landing Page
+      ↓
+Signup Form → (Insert into Signups table)
+      ↓
+Send OTP → (Insert Request into Confirmations table)
+      ↓
+OTP Delivered
+      ↓
+User Enters OTP
+      ↓
+ ┌─────────────Correct?─────────────┐
+ |                                   |
+Yes                                 No
+ |                                   |
+ v                                   v
+Update action='confirmed'      Update action='timeout'
+ |                                   |
+ v                                   |
+Authentication Success        Resend OTP → Back to OTP step
+
+
+
+
+RESULT:
+
+0% = Lost user → Fix verification → Gain revenue
+50% = Friction user → Improve UX → Increase conversions
+100% = High-value user → Upsell → Grow wealth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
