@@ -1,0 +1,10 @@
+Approach:
+Pattern
+
+Filter Required
+Search Operator LIKE
+PATINDEX
+[A-Za-z0-9]
+
+
+
