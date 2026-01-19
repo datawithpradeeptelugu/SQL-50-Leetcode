@@ -1,0 +1,11 @@
+PATTERN:
+-Numbers in sequential
+-Sequential Numbers odd and even respectively
+-So If the id is odd get new id+1
+-So If the id is even get new id-1
+-So if the Last id the odd,keep remain same
+
+
+SQL Components:
+-CASE STATEMENT
+
