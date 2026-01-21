@@ -1,0 +1,17 @@
+Pattern:
+
+SQL works row by row, similar to Excel.
+
+If there is no data for a particular range, SQL will not create a category automatically.
+
+Using CASE WHEN with SUM and GROUP BY will miss that category when no records exist for it.
+
+But the requirement is to show the category even if there is no data.
+
+So, in this case, we must manually define each category and use UNION ALL with aggregation to return all categories with a count (including 0)
+
+
+SQL Components:
+Union ALL
+Static Value across table and Description
+ex: Select 'Low Salary' as category
